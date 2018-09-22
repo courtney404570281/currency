@@ -55,7 +55,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+<<<<<<< HEAD
         android:text="@string/none"
+=======
+>>>>>>> cc783382658b4d872c74d473af5f8c46f671aa72
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toEndOf="@+id/txt_JP"
         app:layout_constraintTop_toTopOf="@+id/txt_JP" />
@@ -75,7 +78,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+<<<<<<< HEAD
         android:text="@string/none"
+=======
+>>>>>>> cc783382658b4d872c74d473af5f8c46f671aa72
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toEndOf="@+id/txt_US"
         app:layout_constraintTop_toTopOf="@+id/txt_US" />
