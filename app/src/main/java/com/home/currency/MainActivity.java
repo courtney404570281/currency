@@ -41,15 +41,9 @@ public class MainActivity extends AppCompatActivity {
                 if (nt.equals("")){
 
                     new AlertDialog.Builder(MainActivity.this)
-<<<<<<< HEAD
                             .setTitle(R.string.problem)
                             .setMessage(R.string.please_enter_your_ntd_amount)
                             .setPositiveButton(R.string.ok, null)
-=======
-                            .setTitle("Problem")
-                            .setMessage("Please enter your NTD amount")
-                            .setPositiveButton("OK", null)
->>>>>>> cc783382658b4d872c74d473af5f8c46f671aa72
                             .show();
 
                 }else{
@@ -57,33 +51,23 @@ public class MainActivity extends AppCompatActivity {
                     Float ntd = Float.parseFloat(nt);
                     Float usd = ntd * 30.9f;
                     Float jpy = ntd * 0.2f;
-<<<<<<< HEAD
                     Log.d("MainActivity", getString(R.string.usd_is) + usd);
                     Log.d("MainActivity", getString(R.string.jpy_is) + jpy);
-=======
-                    Log.d("MainActivity", "USD is " + usd);
-                    Log.d("MainActivity", "JPY is " + jpy);
->>>>>>> cc783382658b4d872c74d473af5f8c46f671aa72
 
 
                     txUsd.setText(usd.toString());
                     txJpy.setText(usd.toString());
 
                     new AlertDialog.Builder(MainActivity.this)
-<<<<<<< HEAD
                             .setTitle(R.string.result)
                             .setMessage(getString(R.string.usd_is) + usd + "\n" + getString(R.string.jpy_is) + jpy)
                             .setPositiveButton(R.string.ok, null)
-=======
-                            .setTitle("Result")
-                            .setMessage("USD is " + usd + "\n" + "JPY is " + jpy)
-                            .setPositiveButton("OK", null)
->>>>>>> cc783382658b4d872c74d473af5f8c46f671aa72
                             .show();
 
 
                 }
             }
         });
+
     }
 }
